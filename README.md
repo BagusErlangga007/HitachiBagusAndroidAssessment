@@ -19,13 +19,6 @@ A clean architecture Android app to **search GitHub users** and view their detai
 
 ---
 
-## Screenshots 📸
-
-| Search Users | User Detail |
-|--------------|-------------|
-| ![search](screenshots/search.png) | ![detail](screenshots/detail.png) |
-
-*(Replace with your own screenshots in `screenshots/` folder)*
 
 ---
 
