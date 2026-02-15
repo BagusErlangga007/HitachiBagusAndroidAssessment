@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailFragment">
+            <ProgressBar
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/progress"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher_background"
+                    android:id="@+id/ivAvatar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/tvUserName"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="followers"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/tvFollowers"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="followers"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/tvFollowing"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:gravity="center"
+                android:text="error"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/errorText"
+                android:visibility="gone"/>
+
+
+
+</FrameLayout>
